@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_parent_color">#fccc66</color>
+    <color name="action_bar_bg_color">#fccc66</color>
+    <color name="app_secondary_color">#965aa0</color>
+    <color name="app_tertiary_color">#f8ab3a</color>
+    <color name="app_quarternary_color">#c13a2c</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#ff666666</color>
+    <color name="app_third_color">#fab23e</color>
+   
+</resources>

@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.ansoft.naksha"
+        minSdkVersion 13
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile files('libs/osmbonuspack_v5.1.jar')
+    compile files('libs/osmdroid-android-4.3.jar')
+    compile files('libs/slf4j-android-1.5.8.jar')
+    compile files('libs/zip4j_1.3.2.jar')
+}
